@@ -1,9 +1,12 @@
-import { useTasks } from "./hooks/useTasks";
-
+import { DashboardPage } from "./pages/DashboardPage";
 
 function App() {
-  const {tasks} = useTasks();
-   return <h1>{tasks.length} tasks</h1>;
+  
+  return <DashboardPage />;
 }
 
 export default App;
+
+  
+  
+
